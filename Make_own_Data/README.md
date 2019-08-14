@@ -12,6 +12,6 @@ Bin 형태는 다음 그림과 같이 생성되어있음
 <img src="./cifar10 binaray type.JPG">
 
 
-augment 오류 날텐데 float error
+augment 오류 날텐데 관련에러는 numpy.dtype("f16") is not available (exception in dtype.py, numpy 1.10) 
 
 https://github.com/aleju/imgaug/issues/358 해당 사이트에 적힌 것처럼 수정하면 에러 수정됨
